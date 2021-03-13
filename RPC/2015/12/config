@@ -1,0 +1,14 @@
+set ai
+set tabstop=2
+set shiftwidth=2
+set expandtab
+set autoindent
+set smartindent
+syntax on
+set number
+set cindent
+map <F2> <ESC> :w<CR>
+map <F3> <ESC> :!g++-4.8 %<CR>
+autocmd bufnewfile *.cpp so /home/alvin/cpp_header
+set clipboard+=unnamed
+
